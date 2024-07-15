@@ -1,7 +1,17 @@
 <center>
-    <h1 style="background-color: yellow; color: black;">
-       <marquee behavior="alternate" direction="right"> Hello Vrohhh</marquee>
-    </h1>
+    <h1 id="change" style="background-color: yellow; color: black;"> Hello Vrohhh</h1>
+    <button onclick="fun()">Click</button>
+    <script>
+        var js=document.getElementById("change")
+        console.log(js.textContent)
+        function fun()
+        {
+            js.textContent="Vanakam da Maplaa..."
+        }
+
+
+    </script>
+
 </center>
 <hr>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptates aliquid repellendus. Ab aut repellat tenetur nihil, pariatur facilis ea fugiat, quas corporis ipsam libero inventore velit molestiae nobis architecto.</p>
